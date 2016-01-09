@@ -14,7 +14,7 @@ var cli = meow({
     '  -b, --bash      just show the equivalent bash script',
     '  -q, --quiet     do not show stdout and stderr',
     '',
-  ]
+  ],
 });
 
 if (!cli.input.length) {
@@ -27,7 +27,7 @@ var hon = new Hon(script, {
 });
 
 if (cli.flags.b || cli.flags.bash) {
-  console.log(hon.bash());
+  process.stdout.write(hon.bash());
   process.exit();
 }
 

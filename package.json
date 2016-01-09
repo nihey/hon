@@ -1,10 +1,10 @@
 {
-  "name": "node-boilerplate",
+  "name": "hon",
   "version": "0.0.0",
-  "description": "Enhanced Bash Scripting",
+  "description": "Multi Level Bash Scripts",
   "main": "./lib/index.js",
   "bin": {
-    "binary_name": "./bin/index.js"
+    "hon": "./bin/index.js"
   },
   "scripts": {
     "test": "./node_modules/.bin/eslint ."
@@ -14,16 +14,17 @@
     "url": "https://github.com/nihey/node-boilerplate.git"
   },
   "keywords": [
-    "node",
-    "boilerplate",
-    "simple"
+    "bash",
+    "script",
+    "ssh",
+    "deploy"
   ],
   "author": "Nihey Takizawa <nihey.takizawa@gmail.com>",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/nihey/node-boilerplate/issues"
+    "url": "https://github.com/nihey/hon/issues"
   },
-  "homepage": "https://github.com/nihey/node-boilerplate",
+  "homepage": "https://github.com/nihey/hon",
   "devDependencies": {
     "eslint": "^1.6.0"
   },
