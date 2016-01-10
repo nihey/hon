@@ -10,7 +10,7 @@ Status](https://david-dm.org/nihey/hon.png)](https://david-dm.org/nihey/hon)
 Bash scripts are widely used to collapse multi-step processes into a single
 step, but a lot of times they can get not-so-readable:
 
-```bash
+```shell
 npm run build
 zip dist.zip dist/ -r
 scp dist.zip chimera:/tmp
@@ -20,7 +20,7 @@ rm dist.zip
 
 Hon solves that by allowing you to code multi level scripts:
 
-```bash
+```shell
 npm run build
 zip dist.zip dist/ -r
 scp dist.zip chimera:/tmp
@@ -34,7 +34,7 @@ rm dist.zip
 
 It makes it easier to code in other languages inside a bash script too:
 
-```bash
+```shell
 ssh chimera
     python
         print 'It really works'
@@ -45,7 +45,7 @@ python
 ```
 
 # Installation
-```bash
+```shell
 $ npm i -g hon
 ```
 
@@ -64,7 +64,7 @@ $ npm i -g hon
 
 You just need to create your script:
 
-```bash
+```shell
 # script.hon
 
 ssh nitrogen
@@ -72,12 +72,12 @@ ssh nitrogen
     git fetch
     git rebase
     sed -itmp -e "s/FOO/BAR/g" config.file
-    sudo supervisorctl restart
+    sudo supervisorctl restart my_service
 ```
 
 Then just run the script:
 
-```bash
+```shell
 $ hon script.hon
 ```
 

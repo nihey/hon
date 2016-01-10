@@ -1,6 +1,6 @@
 {
   "name": "hon",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Multi Level Bash Scripts",
   "main": "./lib/index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nihey/node-boilerplate.git"
+    "url": "https://github.com/nihey/hon.git"
   },
   "keywords": [
     "bash",
