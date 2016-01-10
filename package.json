@@ -7,7 +7,7 @@
     "hon": "./bin/index.js"
   },
   "scripts": {
-    "test": "./node_modules/.bin/eslint ."
+    "test": "eslint . && mocha"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/nihey/hon",
   "devDependencies": {
-    "eslint": "^1.6.0"
+    "eslint": "^1.6.0",
+    "mocha": "^2.3.4"
   },
   "dependencies": {
     "meow": "^3.7.0"

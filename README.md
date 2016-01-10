@@ -2,6 +2,8 @@
 
 Multi Level Bash Scripts
 
+[![Build
+Status](https://travis-ci.org/nihey/hon.svg?branch=master)](https://travis-ci.org/nihey/hon)
 [![Dependency
 Status](https://david-dm.org/nihey/hon.png)](https://david-dm.org/nihey/hon)
 

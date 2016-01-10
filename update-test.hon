@@ -1,0 +1,4 @@
+#!bin/index.js
+
+./bin/index.js test/fixtures/$1.hon --bash > test/fixtures/$1.sh
+./bin/index.js test/fixtures/$1.hon ${@:2} > test/fixtures/$1.out
