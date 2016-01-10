@@ -1,6 +1,6 @@
 {
   "name": "hon",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Multi Level Bash Scripts",
   "main": "./lib/index.js",
   "bin": {

@@ -6,6 +6,8 @@ Multi Level Bash Scripts
 Status](https://travis-ci.org/nihey/hon.svg?branch=master)](https://travis-ci.org/nihey/hon)
 [![Dependency
 Status](https://david-dm.org/nihey/hon.png)](https://david-dm.org/nihey/hon)
+[![npm
+version](https://badge.fury.io/js/hon.svg)](https://badge.fury.io/js/hon)
 
 # Why?
 
